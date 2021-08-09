@@ -1,0 +1,77 @@
+body,
+div,
+p,
+ul,
+li,
+input,
+h2,
+section,
+header,
+footer {
+  margin: 0;
+  padding: 0
+}
+
+* {
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
+
+input,
+select {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  font-size:100px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.hide {
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  visibility: hidden;
+  display: none;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
